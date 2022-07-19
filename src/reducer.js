@@ -6,6 +6,10 @@ export default function reducer(state=initial,action)
     switch(type){
         case "add":
             return [...state,payload]
+            case "remove":
+                return state.filter(product=>product!==payload)
+         case "search":
+            return state.filter(product=>product.name.toLowerCase.includes(payload))
             default:
                 return state;
     }

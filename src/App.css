@@ -1,4 +1,21 @@
 .add{
+    color:blue;
+    margin-left: 600px;
+}
+.form
+{
+    align-items: center;
+    margin-right: 90px;
+   display: block;
+}
+.btn
+{
     display: flex;
-    justify-content:space-between;
+}
+.contain-fluid
+{
+    margin-left: 600px;
+}
+body,html{
+    background-color: antiquewhite;
 }
